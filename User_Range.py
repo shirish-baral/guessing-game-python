@@ -47,6 +47,7 @@ while guess != answer:
     attempts=check_number(guess,answer,attempts)
     if attempts==0:
         print("You lose! No more attempts remaining!")
+        print(answer)
         break
     elif answer!= guess:
         print("Guess again")
