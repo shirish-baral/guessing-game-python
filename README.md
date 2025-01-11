@@ -9,7 +9,7 @@ Whether you're new to Python or looking to reinforce your skills, these projects
 
 ## Projects Included
 1. **Number Guessing Game**  
-   A fun game where the user guesses a randomly generated number within a specified range.
+   It is a fun game where the user guesses a randomly generated number within a user-desired range.
 
 2. **To-Do List Application**  
    A simple command-line app to manage and organize tasks.
