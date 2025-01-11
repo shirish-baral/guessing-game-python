@@ -21,19 +21,15 @@ def check_number(guess,number,attempts):
     elif guess > answer:
         print("Your guess is higher")
         return attempts-1
-    else:
+    elif guess!= answer:
         print(f"Your guess is correct. Answer is {answer}")
 
 # Print 'Guess Number' art from logo-art.py        
 print(logo_art.logo)        
 
 #Take input from user
-print("Welcome to Game!!")
-low = int(input("Enter lower range: "))
-high = int(input("Enter higher range: "))
-
-print(f"Let me think of a number between {low} to {high}.")
-answer = random.randint(low,high)
+print("Let me think of a number between 1 to 50.")
+answer = random.randint(1,50)
 level = input("Enter challenging level: (easy or hard): ")
 attempts = set_difficulty(level)
 
@@ -46,13 +42,11 @@ while guess != answer:
     if attempts==0:
         print("You lose! No more attempts remaining!")
         break
-    elif answer!= guess:
+    else:
         print("Guess again")
-        print("----------------------------------------")
 
     
     
-
 
 
 
