@@ -1,3 +1,5 @@
+# User inputs their own range
+
 import random
 import logo_art
 # Declare global variables and set constant
